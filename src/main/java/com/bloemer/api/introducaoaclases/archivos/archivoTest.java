@@ -1,8 +1,9 @@
 package com.bloemer.api.introducaoaclases.archivos;
 
-<<<<<<< HEAD
+
 import java.io.*;
 import java.util.Arrays;
+import java.io.IOException;
 
 public class archivoTest {
     public static void main(String[] args) throws FileNotFoundException {
@@ -57,12 +58,13 @@ public class archivoTest {
         } catch (IOException e) {
             e.printStackTrace();
         }
-=======
-import java.io.File;
-import java.io.IOException;
-import java.util.Arrays;
+    }
+}
+//import java.io.File;
+//import java.io.IOException;
+//import java.util.Arrays;
 
-public class archivoTest {
+/*public class archivoTest {
     public static void main(String[] args) {
         File file = new File("arquivo txt");
         try {
@@ -76,6 +78,5 @@ public class archivoTest {
             System.out.println("arquivo deletado... " + file.delete());
         }
 
->>>>>>> refs/remotes/origin/main
     }
-}
+}*/
