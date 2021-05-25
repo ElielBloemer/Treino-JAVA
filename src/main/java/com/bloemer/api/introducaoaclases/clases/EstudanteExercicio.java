@@ -57,6 +57,7 @@ public class EstudanteExercicio {
         for (float aux : this.nota) {
             soma += aux;
         }
+
         System.out.println("metodo mostrar media ");
         double media = soma / nota.length;
         if (media >= 6) {
